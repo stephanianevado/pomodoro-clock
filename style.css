@@ -1,0 +1,28 @@
+body{
+  color: #495670;
+  background-color: #020c1b;
+}
+
+h1, h2{
+  color: #e6f1ff;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+.dual-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+.time-sets{
+  display: grid;
+  grid-template-columns: 50px 200px 50px;
+  justify-items: center;
+  align-items: center;
+}
